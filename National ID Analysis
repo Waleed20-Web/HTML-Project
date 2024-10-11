@@ -1,1 +1,18 @@
-National ID Analysis
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National ID Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>National ID Analysis</h1>
+        <input type="text" id="nationalID" placeholder="Enter National ID" maxlength="14">
+        <button onclick="analyzeID()">Analyze</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
